@@ -57,3 +57,6 @@ ErrorDocument 500 /ErrorPages/HTTP500.html
 ErrorDocument 503 /ErrorPages/HTTP503.html
 ErrorDocument 504 /ErrorPages/HTTP504.html
 ```
+
+## License ##
+[License for this project](LICENSE.md)
