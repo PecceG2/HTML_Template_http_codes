@@ -1,13 +1,13 @@
-# Simple HttpErrorPages #
+# HTTP Console HTML Template #
 HTTP Error Pages Template. Change default nginx/apache templates for a responsive and more attractive design.
 
-![Screenshot](https://futurelinkhere.com)
+![Screenshot](https://pecceg2.github.io/HTTP_Console_HTML_Template/readme-banner.png)
 
 ## Templates demo ##
-* [HTTP404](https://futurelinkhere.com)
-* [HTTP500](https://futurelinkhere.com)
-* [HTTP503](https://futurelinkhere.com)
-* [HTTP504](https://futurelinkhere.com)
+* [HTTP404](https://pecceg2.github.io/HTTP_Console_HTML_Template/404/)
+* [HTTP500](https://pecceg2.github.io/HTTP_Console_HTML_Template/500/)
+* [HTTP503](https://pecceg2.github.io/HTTP_Console_HTML_Template/503/)
+* [HTTP504](https://pecceg2.github.io/HTTP_Console_HTML_Template/504/)
 
 ## Usage ##
 Just clone/download the git repository (The html files are included on error number folder, example "500/index.html" for 500 Internal Server Error)
