@@ -28,6 +28,7 @@
   </p>
 </p>
 
+## Screenshots ##
 ![Screenshot](https://pecceg2.github.io/HTTP_Console_HTML_Template/readme-banner.png)
 
 ## Templates demo ##
