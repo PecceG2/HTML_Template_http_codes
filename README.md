@@ -1,5 +1,31 @@
-# HTTP Console HTML Template #
-HTTP Error Pages Template. Change default nginx/apache templates for a responsive and more attractive design.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<br />
+<p align="center">
+  <a href="https://github.com/PecceG2/HTML_Template_http_codes">
+    <img src="https://pecceg2.github.io/HTTP_Console_HTML_Template/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">HTML Templates for HTTP status codes</h3>
+
+  <p align="center">
+    HTML Template HTTP Codes is a HTML templates to decorate your HTTP web server responses/errors
+	Change default nginx/apache templates for a responsive and more attractive design.
+    <br />
+    <a href="https://github.com/PecceG2/"><strong>View all my projects »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/PecceG2/HTML_Template_http_codes/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/PecceG2/HTML_Template_http_codes/blob/master/LICENSE.md">View License</a>
+    ·
+    <a href="https://github.com/PecceG2/HTML_Template_http_codes/issues">Request Feature</a>
+  </p>
+</p>
 
 ![Screenshot](https://pecceg2.github.io/HTTP_Console_HTML_Template/readme-banner.png)
 
@@ -31,10 +57,10 @@ server {
         try_files $uri $uri/ =404;
         
         # add one directive for each http status code
-        error_page 404 /ErrorPages/HTTP404.html;
-        error_page 500 /ErrorPages/HTTP500.html;
-        error_page 503 /ErrorPages/HTTP503.html;
-		error_page 503 /ErrorPages/HTTP503.html;
+        error_page 404 /ErrorPages/404/index.html;
+        error_page 500 /ErrorPages/500/index.html;
+        error_page 503 /ErrorPages/503/index.html;
+		error_page 503 /ErrorPages/504/index.html;
     }
 
     # redirect the virtual ErrorPages path the real path
@@ -52,11 +78,24 @@ File: `httpd.conf` or `.htaccess`
 Example - assumes HttpErrorPages are located into your **document root** `/var/www/...docroot../ErrorPages`.
 
 ```ApacheConf
-ErrorDocument 404 /ErrorPages/HTTP404.html
-ErrorDocument 500 /ErrorPages/HTTP500.html
-ErrorDocument 503 /ErrorPages/HTTP503.html
-ErrorDocument 504 /ErrorPages/HTTP504.html
+ErrorDocument 404 /ErrorPages/404/index.html
+ErrorDocument 500 /ErrorPages/500/index.html
+ErrorDocument 503 /ErrorPages/503/index.html
+ErrorDocument 504 /ErrorPages/504/index.html
 ```
 
-## License ##
-[License for this project](LICENSE.md)
+## License
+>You can check out the full license [here](https://github.com/PecceG2/HTML_Template_http_codes/blob/master/LICENSE.md)
+
+This project is licensed under the terms of the **MIT** license.
+
+[contributors-shield]: https://img.shields.io/github/contributors/PecceG2/HTML_Template_http_codes.svg?style=flat-square
+[contributors-url]: https://github.com/PecceG2/HTML_Template_http_codes/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PecceG2/HTML_Template_http_codes.svg?style=flat-square
+[forks-url]: https://github.com/PecceG2/HTML_Template_http_codes/network/members
+[stars-shield]: https://img.shields.io/github/stars/PecceG2/HTML_Template_http_codes.svg?style=flat-square
+[stars-url]: https://github.com/PecceG2/HTML_Template_http_codes/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PecceG2/HTML_Template_http_codes.svg?style=flat-square
+[issues-url]: https://github.com/PecceG2/HTML_Template_http_codes/issues
+[license-shield]: https://img.shields.io/github/license/PecceG2/HTML_Template_http_codes.svg?style=flat-square
+[license-url]: https://github.com/PecceG2/HTML_Template_http_codes/blob/master/LICENSE.md
