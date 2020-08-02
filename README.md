@@ -7,14 +7,15 @@
 <br />
 <p align="center">
   <a href="https://github.com/PecceG2/HTML_Template_http_codes">
-    <img src="https://pecceg2.github.io/HTTP_Console_HTML_Template/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://pecceg2.github.io/HTTP_Console_HTML_Template/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">HTML Templates for HTTP status codes</h3>
 
   <p align="center">
     HTML Template HTTP Codes is a HTML templates to decorate your HTTP web server responses/errors
-	Change default nginx/apache templates for a responsive and more attractive design.
+	<br />
+	Change default nginx/apache templates for a responsive and more attractive design
     <br />
     <a href="https://github.com/PecceG2/"><strong>View all my projects »</strong></a>
     <br />
