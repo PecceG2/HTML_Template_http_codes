@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/PecceG2/HTML_Template_http_codes">
-    <img src="https://pecceg2.github.io/HTTP_Console_HTML_Template/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="https://pecceg2.github.io/HTTP_Console_HTML_Template/logo.jpg" alt="Logo" width="100">
   </a>
 
   <h3 align="center">HTML Templates for HTTP status codes</h3>
